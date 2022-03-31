@@ -19,11 +19,14 @@ int digits(int n){
     printf("Elements: %d",ans);
 }
 int main(){
-    int n=35897;
+    int n;
+    printf("enter the number :");
+    scanf("%d",&n);
     digits(n);
     return 0;
 }
 
 // OUTPUT
+//input : 35897
 
 // Elements: 46908
